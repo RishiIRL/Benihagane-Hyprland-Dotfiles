@@ -11,7 +11,9 @@
 
 <br/>
 
-<video src="previews/Preview.mp4" width="100%" controls></video>
+<div align="center">
+    https://github.com/user-attachments/assets/d621aadf-b978-46d2-bb08-8459d54e99c9
+</div>
 
 <table width="100%">
   <tr>
