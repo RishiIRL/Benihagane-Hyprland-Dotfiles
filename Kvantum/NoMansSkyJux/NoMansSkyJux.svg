@@ -35,17 +35,17 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1007"
+     inkscape:window-width="1892"
+     inkscape:window-height="1010"
      id="namedview1766"
      showgrid="true"
      inkscape:zoom="2.5165335"
-     inkscape:cx="196.50047"
-     inkscape:cy="260.47736"
+     inkscape:cx="196.50046"
+     inkscape:cy="355.84664"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g336"
+     inkscape:current-layer="svg1764"
      inkscape:document-rotation="0"
      inkscape:showpageshadow="2"
      inkscape:pagecheckerboard="0"
@@ -71,7 +71,7 @@
        inkscape:collect="always"
        id="linearGradient45">
       <stop
-         style="stop-color:#e43535;stop-opacity:1;"
+         style="stop-color:#ff0000;stop-opacity:1;"
          offset="0"
          id="stop44" />
       <stop
@@ -83,7 +83,7 @@
        inkscape:collect="always"
        id="linearGradient44">
       <stop
-         style="stop-color:#e43535;stop-opacity:1;"
+         style="stop-color:#ff0000;stop-opacity:1;"
          offset="0"
          id="stop34" />
       <stop
@@ -95,7 +95,7 @@
        inkscape:collect="always"
        id="linearGradient31">
       <stop
-         style="stop-color:#e43535;stop-opacity:1;"
+         style="stop-color:#ff0000;stop-opacity:1;"
          offset="0"
          id="stop30" />
       <stop
@@ -107,7 +107,7 @@
        inkscape:collect="always"
        id="linearGradient28">
       <stop
-         style="stop-color:#e43535;stop-opacity:1;"
+         style="stop-color:#ff0000;stop-opacity:1;"
          offset="0"
          id="stop26" />
       <stop
@@ -119,7 +119,7 @@
        inkscape:collect="always"
        id="linearGradient25">
       <stop
-         style="stop-color:#e43535;stop-opacity:1;"
+         style="stop-color:#ff0000;stop-opacity:1;"
          offset="0"
          id="stop23" />
       <stop
@@ -131,7 +131,7 @@
        inkscape:collect="always"
        id="linearGradient21">
       <stop
-         style="stop-color:#e43535;stop-opacity:1;"
+         style="stop-color:#ff0000;stop-opacity:1;"
          offset="0"
          id="stop20" />
       <stop
@@ -143,7 +143,7 @@
        inkscape:collect="always"
        id="linearGradient19">
       <stop
-         style="stop-color:#e43535;stop-opacity:1;"
+         style="stop-color:#ff0000;stop-opacity:1;"
          offset="0"
          id="stop18" />
       <stop
@@ -155,7 +155,7 @@
        inkscape:collect="always"
        id="linearGradient17">
       <stop
-         style="stop-color:#e43535;stop-opacity:1;"
+         style="stop-color:#ff0000;stop-opacity:1;"
          offset="0"
          id="stop15" />
       <stop
@@ -167,7 +167,7 @@
        inkscape:collect="always"
        id="linearGradient13">
       <stop
-         style="stop-color:#e43535;stop-opacity:1;"
+         style="stop-color:#ff0000;stop-opacity:1;"
          offset="0"
          id="stop12" />
       <stop
@@ -179,7 +179,7 @@
        inkscape:collect="always"
        id="linearGradient10">
       <stop
-         style="stop-color:#e43535;stop-opacity:1;"
+         style="stop-color:#ff0000;stop-opacity:1;"
          offset="0"
          id="stop8" />
       <stop
@@ -334,7 +334,7 @@
        id="linearGradient1"
        inkscape:collect="always">
       <stop
-         style="stop-color:#ff7575;stop-opacity:0.85557973;"
+         style="stop-color:#ff0f0f;stop-opacity:0.85557973;"
          offset="0"
          id="stop1" />
       <stop
@@ -550,7 +550,7 @@
        inkscape:collect="always"
        id="linearGradient2010">
       <stop
-         style="stop-color:#e43535;stop-opacity:1;"
+         style="stop-color:#ff0000;stop-opacity:1;"
          offset="0"
          id="stop2006" />
       <stop
@@ -2265,7 +2265,7 @@
          d="m 149,444 h 8 v 8 h -8 z"
          id="itemview-toggled" />
       <rect
-         style="fill:#ff8d8d;fill-opacity:0.87025672;fill-rule:evenodd"
+         style="fill:#ff0000;fill-opacity:0.87025672;fill-rule:evenodd"
          height="8"
          width="4"
          y="444"
@@ -2273,12 +2273,12 @@
          id="itemview-toggled-right" />
       <path
          inkscape:connector-curvature="0"
-         style="fill:#ff8d8d;fill-opacity:0.87025672;fill-rule:evenodd"
+         style="fill:#ff0000;fill-opacity:0.87025672;fill-rule:evenodd"
          d="m 157,440 h 4 v 4 h -4 z"
          id="itemview-toggled-topright" />
       <path
          inkscape:connector-curvature="0"
-         style="fill:#ff8d8d;fill-opacity:0.87025672;fill-rule:evenodd"
+         style="fill:#ff0000;fill-opacity:0.87025672;fill-rule:evenodd"
          d="m 157,452 h 4 v 4 h -4 z"
          id="itemview-toggled-bottomright" />
       <rect
@@ -7405,7 +7405,7 @@
        style="fill-rule:evenodd" />
   </g>
   <rect
-     style="opacity:0.75;fill:none;fill-opacity:1;stroke:#ea6262;stroke-width:1.30000007;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+     style="opacity:0.75;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.30000007;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
      id="rect2173"
      width="62.894642"
      height="60.540295"
