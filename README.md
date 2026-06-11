@@ -11,7 +11,7 @@
 
 <br/>
 
-<video src="previews/Preview.mp4" width="100%" controls autoplay loop muted></video>
+<video src="https://github.com/RishiIRL/Benihagane-Hyprland-Dotfiles/raw/main/previews/Preview.mp4" width="100%" controls autoplay loop muted></video>
 
 <table width="100%">
   <tr>
