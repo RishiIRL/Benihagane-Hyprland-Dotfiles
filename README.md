@@ -12,7 +12,7 @@
 <br/>
 
 <div align="center">
-    https://github.com/user-attachments/assets/ccfb315c-20a1-4813-a4da-ee7a2eee83bd
+https://github.com/user-attachments/assets/ccfb315c-20a1-4813-a4da-ee7a2eee83bd
 </div>
 
 <table width="100%">
