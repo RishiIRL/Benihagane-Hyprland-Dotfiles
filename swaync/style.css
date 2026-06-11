@@ -1,0 +1,73 @@
+@define-color bg rgba(46, 46, 46, 0.25);
+@define-color bg_alt #2a2a2a;
+@define-color accent #ac4141;
+@define-color text #e5e5e5;
+@define-color border #d61406;
+
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    color: @text;
+}
+
+.control-center {
+    background: @bg;
+    border: 1px solid @border;
+    border-radius: 20px;
+}
+
+.control-center-list {
+    background: transparent;
+}
+
+.notification {
+    background: @bg_alt;
+    border: 1px solid @accent;
+    border-radius: 16px;
+    margin: 6px;
+}
+
+.notification-content {
+    padding: 10px;
+}
+
+.notification-default-action:hover {
+    background: @accent);
+}
+
+.widget-title {
+    background: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.widget-title button {
+    background: @accent;
+    border-radius: 12px;
+    padding: 6px 12px;
+}
+
+.widget-title button:hover {
+    background: @accent;
+}
+
+.widget-dnd {
+    margin: 8px 12px;
+}
+
+.widget-dnd switch {
+    background: @bg_alt;
+}
+
+.widget-dnd switch:checked {
+    background: @accent;
+}
+
+.notification-action {
+    background: @bg_alt;
+    border-radius: 10px;
+}
+
+.notification-action:hover {
+    background: @accent;
+}

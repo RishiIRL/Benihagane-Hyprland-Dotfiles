@@ -1,0 +1,9 @@
+{
+	"custom/power" : {
+		"exec": "/home/glitch/.config/hypr/scripts/powericon.sh",
+		"interval": 2,
+		"return-type" : "json",
+		"on-click": "/home/glitch/.config/hypr/scripts/powerflag.sh"
+	}
+		
+}

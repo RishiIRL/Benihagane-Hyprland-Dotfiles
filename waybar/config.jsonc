@@ -1,0 +1,35 @@
+{
+    "layer": "top",
+    "height": 42,
+    "spacing": 6,
+    "include": [
+        "./modules/groups.jsonc",
+        "./modules/power.jsonc",
+        "./modules/idle-inhibitor.jsonc",
+        "./modules/audio.jsonc",
+        "./modules/clock.jsonc",
+        "./modules/battery.jsonc",
+        "./modules/connections.jsonc",
+        "./modules/notifications.jsonc",
+        "./modules/workspaces.jsonc",
+        "./modules/distro.jsonc"
+
+    ],
+
+
+    "modules-left": [
+        "group/distro-group"
+    ],
+    "modules-center": [
+        "custom/power",
+        "hyprland/workspaces",
+        "idle_inhibitor"
+    ],
+    "modules-right": [
+        "group/audio",
+        "group/connections",
+        "battery",
+        "clock",
+        "custom/notifications"
+    ]
+}

@@ -1,0 +1,111 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+
+  "display": {
+    "key": {
+      "width": 14
+    },
+    "size": {
+      "binaryPrefix": "jedec"
+    },
+    "separator": ""
+  },
+
+  "logo": {
+    "type": "kitty",
+    "source": "~/.config/fastfetch/logo.png",
+    "width": 30,
+    "height": 13,
+    "padding": {
+      "right": 2,
+      "left": 1,
+      "top": 3
+    }
+  },
+
+  "modules": [
+    "break",
+    "break",
+    "break",
+    
+    
+    {
+      "type": "title",
+      "key": "           ",
+      "keyColor" : "red",
+      "format": "{6}{7}{8}"
+    },
+    {
+      "type": "custom",
+      "format": "┌──────────────────────────────────────────────────────┐"
+    },
+    {
+      "type": "os",
+      "key": "    OS",
+      "keyColor": "red",
+      "format": "{name}"
+    },
+
+    {
+      "type": "host",
+      "key": "    Host",
+      "keyColor": "red"
+    },
+
+    {
+      "type": "kernel",
+      "key": "    Kernel",
+      "keyColor": "red"
+    },
+
+    {
+      "type": "uptime",
+      "key": "    Uptime",
+      "keyColor": "red"
+    },
+    {
+      "type": "custom",
+      "format": "└──────────────────────────────────────────────────────┘"
+    },
+
+    "break",
+    {
+      "type": "custom",
+      "format": "┌──────────────────────────────────────────────────────┐"
+    },
+    {
+      "type": "cpu",
+      "key": "    CPU",
+      "keyColor": "red",
+      "format": "{name}"
+    },
+
+    {
+      "type": "gpu",
+      "key": "  󰊴  GPU",
+      "keyColor": "red",
+      "format": "{name}"
+    },
+
+    {
+      "type": "memory",
+      "key": "    RAM",
+      "keyColor": "red",
+      "format": "{used} / {total}"
+    },
+
+    {
+      "type": "disk",
+      "key": "    Disk",
+      "keyColor": "red",
+      "folders": [
+        "/"
+      ],
+      "format": "{size-used} / {size-total}"
+    },
+    {
+      "type": "custom",
+      "format": "└──────────────────────────────────────────────────────┘"
+    }
+  ]
+}

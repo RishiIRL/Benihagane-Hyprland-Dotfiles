@@ -1,0 +1,237 @@
+@define-color container_bg rgba(46, 46, 46, 0.45);
+@define-color icon_accent #ac4141;
+@define-color primary #d61406;
+@define-color on_primary #2a2a2a;
+@define-color icon_accent_fixed #2dd0e2;
+@define-color outline_variant #4c4040;
+@define-color error_container #d7e115;
+
+* {
+    margin: 0;
+    padding: 0;
+    min-height: 0px;
+    border: 0px;
+    border-radius: 0px;
+    font-family: "JetBrainsMono Nerd Font";
+}
+
+window#waybar {
+    background: transparent;
+}
+
+
+/* WORKSPACE */
+
+#workspaces {
+    margin: 4px 5px;
+    padding: 6px 6px;
+    background-color: @container_bg;
+    /* border: 1px solid; */
+    /* border-color: #d00000; */
+    border-radius: 20px;
+
+}
+#workspaces button{
+    min-width:25px;
+    padding: 0 10px;
+    color: @icon_accent;
+    background: transparent;
+    border-radius: 16px;
+    margin: 0 2px;
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+}
+
+#workspaces button.active{
+    padding: 0 12px;
+    margin: 0 2px;
+    background-color: @primary;
+    color: @on_primary;
+}
+
+#workspaces button.special {
+  color: @icon_accent_fixed;
+}
+
+#workspaces button:hover {
+  background-color: #303638;
+  color: @primary;
+}
+
+#workspaces button.active:hover {
+  background-color: @primary;
+  color: @on_primary;
+}
+
+#workspaces button.empty {
+  color: @outline_variant;
+}
+
+#workspaces button.urgent {
+  color: @error_container;
+}
+#workspaces button label:first-child {
+  margin-right: 8px;
+}
+#workspaces button label:last-child {
+  margin-left: 2px;
+}
+
+/* WORKSPACE END */
+
+/* BATTERY AND CLOCK */
+
+#battery {
+  margin: 4px 5px 4px 0px;
+  padding: 6px 16px;
+  background-color: @container_bg;
+  border-radius: 20px;
+  color: @icon_accent;
+}
+
+#clock {
+  margin: 4px 5px 4px 0px;
+  padding: 6px 10px 6px 16px;
+  background-color: @container_bg;
+  border-radius: 20px;
+  color: @icon_accent;
+}
+
+/* BATTERY AND CLOCK END */
+
+/* SLIDER */
+
+#pulseaudio-slider {
+  margin: 4px 5px;
+  padding: 0 2px;
+  background-color: transparent;
+  border-radius: 20px;
+}
+
+#pulseaudio-slider trough {
+  min-height: 10px;
+  min-width: 80px;
+  border-radius: 10px;
+  background-color: @outline_variant;
+}
+
+#pulseaudio-slider highlight {
+  min-height: 10px;
+  border-radius: 10px;
+  background-color: @icon_accent;
+}
+
+#pulseaudio-slider slider {
+  min-height: 12px;
+  min-width: 12px;
+  margin: -2px 0;
+  border-radius: 100%;
+  background-color: @primary;
+}
+
+/* SLIDER END */
+
+/* STATE */
+#custom-tray-arrow.inhibited-none,
+#custom-tray-arrow.dnd-none,
+#battery.charging,
+#custom-power.power-saver {
+  color: #a6e3a1;
+}
+
+
+#idle_inhibitor.activated,
+#battery.warning:not(.charging),
+#custom-tray-arrow.notification,
+#custom-tray-arrow.dnd-notification,
+#custom-tray-arrow.inhibited-notification {
+  color: #f9e2af;
+}
+
+#network.disabled,
+#battery.critical:not(.charging),
+#custom-power.performance,
+#custom-tray-arrow.dnd-inhibited-none,
+#custom-tray-arrow.dnd-inhibited-notification {
+  color: #f38ba8;
+}
+/* STATE END */
+
+#custom-power,
+#idle_inhibitor {
+  margin: 4px 5px;
+  padding: 6px 15px 6px 10px;
+  background-color: @container_bg;
+  border-radius: 20px;
+  color: @icon_accent;
+}
+
+#distro-group {
+  margin: 4px 5px 4px 12px;
+  background-color: @container_bg;
+  border-radius: 20px;
+  color: @primary;
+  font-size: 16px;
+}
+
+#custom-distro {
+  color: @primary;
+  padding: 6px 15px 6px 15px;
+}
+
+#custom-terminal {
+  color: #907272;
+  padding: 0px 10px;
+}
+
+#custom-code {
+  color: #907272;
+  padding: 0px 10px;
+}
+
+
+#custom-files {
+  color: #907272;
+  padding: 0px 10px 0px 8px;
+}
+
+#custom-spotify {
+  color: #907272;
+  padding: 0px 15px 0px 10px;
+}
+
+#custom-firefox {
+  color: #907272;
+  padding:  0px 10px;
+}
+
+#audio,
+#connections{
+  margin: 4px 5px 4px 0px;;
+  padding: 6px 6px;
+  background-color: @container_bg;
+  border-radius: 20px;
+  color: @icon_accent;
+}
+
+
+#bluetooth {
+  margin-right: 2px;
+  padding: 0 8px;
+}
+
+#network {
+  padding: 0px 10px 0px 4px;
+}
+#pulseaudio {
+  margin-right: 12px;
+  margin-left: 8px;
+}
+
+#custom-notifications {
+  padding: 2px 14px;
+  font-size: 16px;
+  color: @primary;
+  background-color: @container_bg;
+  border-radius: 20px;
+  margin: 4px 12px 4px 0px;
+}

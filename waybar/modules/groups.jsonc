@@ -1,0 +1,36 @@
+{
+    "group/connections": {
+        "orientation": "horizontal",
+        "drawer": {
+            "transition-duration": 500,
+            "transition-left-to-right": false
+        },
+        "modules": [
+            "network",
+            "bluetooth"
+        ]
+    },
+    "group/audio": {
+        "orientation": "horizontal",
+        "drawer": {
+	        "transition-duration": 650,
+            "transition-left-to-right": false
+        },
+        "modules": [
+            "pulseaudio",
+            "pulseaudio/slider",
+            "pulseaudio#microphone"
+        ]
+    },
+    "group/distro-group": {
+    "orientation": "horizontal",
+    "modules": [
+        "custom/distro",
+        "custom/terminal",
+        "custom/code",
+        "custom/firefox",
+        "custom/files",
+        "custom/spotify"
+    ]
+}
+}

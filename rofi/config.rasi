@@ -1,0 +1,152 @@
+@theme "default"
+
+configuration {
+    modi: "drun,run,filebrowser,window";
+
+    show-icons: true;
+
+    display-drun: "󰣆";
+    display-run: "󰆍";
+    display-filebrowser: "󰉋";
+    display-window: "󱂬";
+}
+
+* {
+    bg: #000000aa;
+    bg-alt: #141414aa;
+    red: #d61406aa;
+    urgent: #d4dd2d;
+    text: #f2f2f2;
+    separatorcolor: transparent;
+
+    font: "JetBrainsMono Nerd Font 12";
+}
+
+window {
+	transparency: "real";
+    background-color: @bg;
+    width: 900px;
+    border: 2px;
+    border-color: @red;
+    border-radius: 15px;
+    padding: 0px;
+}
+
+mainbox {
+    padding: 0px;
+    orientation: horizontal;
+    spacing: 12px;
+    children: [ imagebox, listbox ];
+}
+
+imagebox {
+	expand: false;
+    width: 300px;
+	background-image: url("/home/glitch/.config/rofi/image.avif", width);   
+    children: [ inputbar, dummy, mode-switcher ];
+    orientation: vertical;
+    spacing: 6px;
+}
+
+listbox {
+    margin: 8px 12px 8px 0px;
+    orientation: vertical;
+    children: [ listview ];
+}
+
+inputbar {
+    background-color: @bg-alt;
+    border: 0px;
+    border-radius: 12px;
+    padding: 15px;
+	margin: 8px 6px 0px 6px;
+    children: [ entry ];
+}
+
+entry {
+    text-color: @text;
+    placeholder: " Search";
+    placeholder-color: #6b6b6b;
+}
+
+listview {
+    lines: 7;
+    spacing: 8px;
+    scrollbar: false;
+}
+
+element {
+    padding: 15px;
+    border-radius: 10px;
+}
+
+element alternate.normal,
+element normal.normal {
+    background-color: @bg-alt;
+    text-color: @text;
+}
+
+element selected.normal {
+    background-color: @red;
+    text-color: #ffffff;
+}
+
+element normal.active,
+element alternate.active {
+    background-color: @bg-alt;
+    text-color: @text;
+    border: 2px solid;
+    border-color: @red;
+}
+
+element selected.active {
+    background-color: @red;
+    text-color: #ffffff;
+    border: 5px solid;
+    border-color: #580313;
+}
+
+element normal.urgent,
+element alternate.urgent {
+    background-color: @bg-alt;
+    text-color: @text;
+    border: 2px solid;
+    border-color: @urgent;
+}
+
+element selected.urgent {
+    background-color: @red;
+    text-color: #ffffff;
+    border: 2px solid;
+    border-color: @urgent;
+}
+
+element-icon {
+    size: 24px;
+}
+
+element-text {
+    text-color: inherit;
+}
+
+mode-switcher {
+    enabled: true;
+    spacing: 10px;
+    background-color: transparent;
+    margin: 8px 6px;
+}
+
+button {
+    padding: 12px;
+    border-radius: 10px;
+    font: "JetBrainsMono Nerd Font 14";
+    background-color: @bg-alt;
+    text-color: @text;
+}
+
+button selected {
+    background-color: #be1414;
+    border: 3px solid;
+    border-color: #000000;
+    text-color: #ffffff;
+}

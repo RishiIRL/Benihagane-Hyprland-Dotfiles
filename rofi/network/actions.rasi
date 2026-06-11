@@ -1,0 +1,93 @@
+@theme "default"
+
+* {
+    bg: #00000066;
+    bg-alt: #141414aa;
+    red: #d61406aa;
+    text: #f2f2f2;
+    separatorcolor: transparent;
+    font: "JetBrainsMono Nerd Font 13";
+}
+
+window {
+    transparency: "real";
+
+    background-color: @bg;
+
+    width: 650px;
+    padding: 0px;
+    border: 2px;
+    border-color: @red;
+    border-radius: 15px;
+}
+
+mainbox {
+    padding: 0px;
+
+
+    children: [ inputbar, message, listview ];
+}
+inputbar {
+    background-color: @bg-alt;
+    children: [ prompt ];
+    background-color: @red;
+    padding: 0px;
+}
+
+prompt {
+    text-color: @text;
+    padding: 10px;
+}
+
+message {
+    background-color: @bg-alt;
+
+    border-radius: 12px;
+
+    padding: 14px;
+}
+textbox {
+    text-color: @text;
+}
+listview {
+    columns: 5;
+    lines: 1;
+
+    fixed-columns: false;
+
+    cycle: true;
+    dynamic: true;
+
+    spacing: 12px;
+    margin: 12px;
+
+    scrollbar: false;
+
+    background-color: transparent;
+}
+element {
+    padding: 60px 0px 60px 0px;
+    border: 2px solid;
+    border-color: @red;
+    border-radius: 12px;
+
+    background-color: @bg-alt;
+}
+element normal.normal,
+element alternate.normal {
+    background-color: @bg-alt;
+
+    text-color: @text;
+}
+element selected.normal {
+    background-color: @red;
+
+    text-color: #ffffff;
+}
+element-text {
+    horizontal-align: 0.4;
+
+    vertical-align: 0.5;
+
+    text-color: inherit;
+}
