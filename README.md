@@ -60,7 +60,7 @@ You will need the following core packages (names may vary slightly by distro):
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/Benihagane-Hyprland-Dotfiles.git ~/dotfiles
+   git clone https://github.com/RishiIRL/Benihagane-Hyprland-Dotfiles.git ~/dotfiles
    cd ~/dotfiles
    ```
 

@@ -1,58 +1,65 @@
 {
-  "layer": "overlay",
-  "control-center-layer": "top",
-  "keyboard-shortcuts": true,
-  "transition-time": 200,
-
-  "hide-on-clear": false,
-  "hide-on-action": true,
-
-  "time-format": "%H:%M",
-
+  "$schema": "/etc/xdg/swaync/configSchema.json",
+  "ignore-gtk-theme": true,
   "positionX": "right",
   "positionY": "top",
-
-  "fit-to-screen": true,
-
-  "control-center-width": 360,
-  "control-center-height": 0,
-
-  "control-center-margin-top": 8,
-  "control-center-margin-bottom": 8,
-  "control-center-margin-right": 8,
-  "control-center-margin-left": 0,
-
-  "notification-window-width": 380,
-
-  "notification-icon": true,
+  "layer": "overlay",
+  "control-center-layer": "top",
+  "layer-shell": true,
+  "layer-shell-cover-screen": true,
+  "cssPriority": "user",
+  "control-center-margin-top": 5,
+  "control-center-margin-bottom": 5,
+  "control-center-margin-right": 5,
+  "control-center-margin-left": 5,
+  "notification-2fa-action": true,
+  "notification-inline-replies": false,
+  "notification-body-image-height": 100,
+  "notification-body-image-width": 200,
+  "notification-icon": "true",
   "notification-icon-size": 48,
   "app-icon-size": 20,
-
-  "notification-close-button-position": "right",
-
   "timeout": 10,
   "timeout-low": 5,
   "timeout-critical": 0,
-
+  "fit-to-screen": true,
+  "relative-timestamps": true,
+  "control-center-width": 450,
+  "control-center-height": 600,
+  "notification-window-width": 450,
+  "transition-time": 200,
+  "hide-on-clear": false,
+  "hide-on-action": true,
+  "text-empty": "Nothing new",
+  "notification-visibility": {},
+  "notification-close-button-position": "right",
   "widgets": [
+    "inhibitors",
     "title",
     "dnd",
-    "notifications"
+    "notifications",
+    "mpris",
+    "backlight"
   ],
-
   "widget-config": {
     "title": {
-      "text": "Notifications",
-      "clear-all-button": true,
-      "button-text": "Clear All"
+        "text": "Notifications",
+        "clear-all-button": true,
+        "button-text": "Empty"
     },
-
     "dnd": {
-      "text": "Do Not Disturb"
+        "text": "Do Not Disturb"
     },
-
+    "backlight": {
+        "label": "󰃠  ",
+        "device": "intel_backlight"
+    },
     "notifications": {
-      "notification-visibility": {}
+        "notification-visibility": {}
+    },
+    "mpris": {
+      "image-size": 56,
+      "blur-image": false
     }
   }
 }

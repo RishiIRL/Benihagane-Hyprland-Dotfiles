@@ -1,0 +1,37 @@
+* {
+  --bg-panel: rgba(22, 22, 22);
+  --bg-widget: rgba(32, 32, 32, 0.3);
+
+  --bg-tile: rgba(16, 16, 16, 0.82);
+  --bg-tile-hover: rgba(32, 32, 32, 0.92);
+
+  --bg-critical: rgba(80, 60, 0, 0.88);
+  --bg-critical-hover: rgba(110, 80, 0, 0.95);
+
+  --border-critical: rgba(255, 200, 60, 0.55);
+  --shadow-critical: rgba(255, 190, 0, 0.35);
+
+  --btn-on: rgb(214, 20, 6);
+  --btn-off: rgba(255, 255, 255, 0.18);
+
+  --accent: rgb(214, 20, 6);
+  --accent-dim: rgba(214, 20, 6, 0.18);
+  --hover-dim: rgba(48, 48, 48, 1);
+
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-glass: rgba(214, 20, 6, 0.44);
+
+  --text-primary: rgba(255, 255, 255, 0.95);
+  --text-secondary: rgba(255, 255, 255, 0.65);
+
+  --text-dim: rgba(180, 180, 180, 0.55);
+  --text-hover: rgba(255, 255, 255, 1);
+
+  --radius-panel: 20px;
+  --radius-widget: 10px;
+  --radius-tile: 12px;
+  --radius-btn: 8px;
+
+  --t-fast: 150ms ease;
+  --t-mid: 220ms ease;
+}

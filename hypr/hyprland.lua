@@ -1,0 +1,8 @@
+require("benihagane/keybindings")
+require("benihagane/monitors")
+require("benihagane/animations")
+require("benihagane/gestures")
+require("benihagane/settings")
+require("benihagane/layerrules")
+require("benihagane/windowrules")
+require("benihagane/startup")
