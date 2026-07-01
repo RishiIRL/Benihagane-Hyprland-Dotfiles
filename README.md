@@ -85,7 +85,7 @@ You will need the following core packages (names may vary slightly by distro):
 
 ## Keybindings Preview
 
-*Most default keybinds use the `SUPER` key. You can find the full list in `~/.config/hypr/keybindings.conf`.*
+*Most default keybinds use the `SUPER` key. You can find the full list in [KEYBINDS](KEYBINDS.md) *
 
 | Action | Shortcut |
 | :--- | :--- |
@@ -121,8 +121,6 @@ Contributions are highly welcome, especially for the active backlogs!
 
 - [ ] **Bluetooth Management (`bt-backlog.sh`)**: The script is currently copied from [rofi-bluetooth](https://github.com/nickclyde/rofi-bluetooth) by nickclyde and hasn't been adapted yet to fit the custom Rofi theme style (like the Wi-Fi script).
 - [ ] **Network Script Hardcoding**: The `networks.sh` script currently has network interface drivers hardcoded. Needs optimization to dynamically detect interfaces.
-- [ ] **Swaync Customization**: The notification center design is incomplete. I am tracking other priorities, so PRs are very welcome here!
-- [ ] **Window Rules**: Application-specific window rules (`windowrules.conf`) are currently disabled because they aren't working in this setup. The root cause hasn't been investigated yet.
 
 ---
 

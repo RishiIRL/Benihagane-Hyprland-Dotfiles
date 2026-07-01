@@ -120,8 +120,8 @@ hl.bind(
 	hl.dsp.focus({ workspace = "r-1" }),
 	{ description = "Focus Previous Workspace", repeating = true }
 )
-hl.bind(mainMod .. " + mouse_up", hl.dsp.focus({ workspace = "r+1" }), { description = "Focus Next Workspace" })
-hl.bind(mainMod .. " + mouse_down", hl.dsp.focus({ workspace = "r-1" }), { description = "Focus Previous Workspace" })
+hl.bind(mainMod .. " + CONTROL + mouse_up", hl.dsp.focus({ workspace = "r+1" }), { description = "Focus Next Workspace" })
+hl.bind(mainMod .. " + CONTROL + mouse_down", hl.dsp.focus({ workspace = "r-1" }), { description = "Focus Previous Workspace" })
 
 -- Move focused window to workspace
 hl.bind(
